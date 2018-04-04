@@ -88,6 +88,6 @@ Rscript -e "install.packages('ggplot2')"
 Rscript -e "install.packages('naturalsort')"
 
 # clone crispr-dav pipeline
-git clone --branch v2.2.4 https://github.com/pinetree1/crispr-dav.git \
+git clone https://github.com/pinetree1/crispr-dav.git \
 	&& cp crispr-dav/Docker/conf.txt crispr-dav/Examples/example1 \
 	&& cp crispr-dav/Docker/conf.txt crispr-dav/Examples/example2
